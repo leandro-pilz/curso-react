@@ -1,0 +1,4 @@
+
+npx executor de scpripts do node: npx;
+criar projeto npx create-react-app <nome>
+iniciar aplicação com npm start
