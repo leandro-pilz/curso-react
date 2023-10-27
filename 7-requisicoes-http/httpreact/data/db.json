@@ -1,0 +1,109 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Camisa",
+      "price": 59.9
+    },
+    {
+      "id": 2,
+      "name": "Calça vermelha",
+      "price": 90
+    },
+    {
+      "id": 3,
+      "name": "Boné aba reta",
+      "price": 29.9
+    },
+    {
+      "name": "teste",
+      "price": "12",
+      "id": 4
+    },
+    {
+      "name": "opa",
+      "price": "11",
+      "id": 5
+    },
+    {
+      "name": "opa",
+      "price": "11",
+      "id": 6
+    },
+    {
+      "name": "lalau",
+      "price": "1",
+      "id": 7
+    },
+    {
+      "name": "sfsd",
+      "price": "30",
+      "id": 8
+    },
+    {
+      "name": "sfsd",
+      "price": "30",
+      "id": 9
+    },
+    {
+      "name": "cadeira",
+      "price": "33",
+      "id": 10
+    },
+    {
+      "name": "3",
+      "price": "12",
+      "id": 11
+    },
+    {
+      "name": "ola mundo",
+      "price": "11",
+      "id": 12
+    },
+    {
+      "name": "ola mundo",
+      "price": "11",
+      "id": 13
+    },
+    {
+      "name": "ola mundo",
+      "price": "11",
+      "id": 14
+    },
+    {
+      "name": "ola mundo",
+      "price": "11",
+      "id": 15
+    },
+    {
+      "name": "ola mundo",
+      "price": "11",
+      "id": 16
+    },
+    {
+      "name": "novo produto",
+      "price": "123",
+      "id": 17
+    },
+    {
+      "name": "novo produto",
+      "price": "123",
+      "id": 18
+    },
+    {
+      "name": "vamos la",
+      "price": "25",
+      "id": 19
+    },
+    {
+      "name": "ola mundo",
+      "price": "15",
+      "id": 20
+    },
+    {
+      "name": "mundo",
+      "price": "12",
+      "id": 21
+    }
+  ]
+}
