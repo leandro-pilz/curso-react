@@ -1,0 +1,5 @@
+//Instalar o react route
+npm i react-router-dom
+
+//Instalar o Json server
+npm i json-server
