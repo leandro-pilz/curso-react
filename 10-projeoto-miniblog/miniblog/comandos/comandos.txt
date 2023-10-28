@@ -1,0 +1,5 @@
+//Firebase
+npm i firebase
+
+//Instalar o react route
+npm i react-router-dom
