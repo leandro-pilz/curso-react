@@ -1,0 +1,13 @@
+//Fazer deploy quando o projeto for criado pelo vite
+npm i gh-pages --save-dev
+
+//Em scripts
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "server": "json-server --watch data/db.json --port 5000",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },

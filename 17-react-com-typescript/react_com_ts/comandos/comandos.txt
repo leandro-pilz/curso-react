@@ -1,0 +1,2 @@
+//Criar projeto com template typescript
+npx create-react-app nome_do_projeto --template typescript
