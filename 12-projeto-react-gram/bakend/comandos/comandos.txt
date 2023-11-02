@@ -1,0 +1,10 @@
+//iniciar projeoto
+npm ini -y
+
+//bcrypt
+//multer = para fazer upload de imagens
+//express-validator = para fazer validações
+npm i bcryptjs cors dotenv express express-validator jsonwebtoken mongoose multer
+
+//para fazer o hot reload
+npm i --save-dev nodemon
