@@ -30,7 +30,7 @@ router.post(
   validate,
   insertPhoto
 );
-
+c;
 router.delete("/:id", authGuard, deletePhoto);
 router.get("/", authGuard, getAllPhotos);
 router.get("/user/:id", authGuard, getUserPhotos);
