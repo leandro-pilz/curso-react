@@ -1,0 +1,5 @@
+//pacotes
+npm i react-icons react-router-dom @reduxjs/toolkit
+
+//redux
+npm i react-redux

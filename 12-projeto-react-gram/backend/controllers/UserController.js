@@ -17,7 +17,7 @@ const register = async (req, res) => {
   //check if user exists
   const user = await User.findOne({ email });
   if (user) {
-    res.status(422).json({ erros: ["E-mail já cadastrado."] });
+    res.status(422).json({ errors: ["E-mail já cadastrado."] });
     return;
   }
 
@@ -36,7 +36,7 @@ const register = async (req, res) => {
   if (!newUser) {
     res
       .status(422)
-      .json({ erros: ["Houve um erro, por favor tente mais tarde."] });
+      .json({ errors: ["Houve um erro, por favor tente mais tarde."] });
     return;
   }
 
@@ -53,13 +53,13 @@ const login = async (req, res) => {
 
   // Check if user exists
   if (!user) {
-    res.status(404).json({ erros: ["Usuário não encontrado."] });
+    res.status(404).json({ errors: ["Usuário não encontrado."] });
     return;
   }
 
   // Check if password matches
-  if (!bcrypt.compare(password, user.password)) {
-    res.status(422).json({ erros: ["Senha inválida."] });
+  if (!(await bcrypt.compare(password, user.password))) {
+    res.status(422).json({ errors: ["Senha inválida."] });
     return;
   }
 
