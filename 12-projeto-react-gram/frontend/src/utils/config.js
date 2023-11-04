@@ -1,6 +1,7 @@
 const api = "http://localhost:5000/api";
 export const registerPath = `${api}/users/register`;
 export const loginPath = `${api}/users/login`;
+export const profilePath = `${api}/users/profile`;
 export const uploads = `${api}/uploads`;
 
 export const requestConfig = (method, data, token = null, image = null) => {
